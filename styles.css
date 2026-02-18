@@ -1,0 +1,70 @@
+.page-1 {
+    font-family: Roboto;  
+    background-color: #1F2937;
+    color: aliceblue;
+    margin:0;
+    padding: 30px 120px;
+}
+ header {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 30px;
+}
+.logo {   
+
+}
+
+.header-links {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+}
+
+.page-1-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content-description {
+    width: 300px;
+    
+}
+.content-img {
+    display: flex;
+    width: 300px;
+    height: auto;
+}
+
+.btn {
+    background-color: #3B82F6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    border: none;
+}
+
+.page-2-content {
+    padding: 30px 120px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+.card {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    text-align: center;
+}
